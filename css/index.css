@@ -1,0 +1,80 @@
+body{
+  background:url("http://images.picstatio.com/u/qmikxz/tablet_pencils-colorful-wallppaer.jpg") no-repeat center center fixed;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  text-align:center;
+}
+
+h1{
+  color:maroon;
+  font-weight:bold;
+  font-size:3em;
+}
+
+#calc{
+  background:gray;
+  width:350px;
+  height:450px;
+  border:1px solid black;
+  border-radius:30px;
+  margin: 30px auto;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow : 0px 0px 5px 6px ;
+  
+}
+
+#display{
+  margin-top:20px;
+  margin-bottom:20px;
+  height:30px;
+  width:15em;
+  border:1px solid black;
+  border-radius:5px;
+  box-shadow:0px 0px 2px 1px;
+  text-align:right;
+  font:20px bold;
+  
+  
+}
+
+#keys{
+  width:60px;
+  height:50px;
+  margin:4px;
+  box-shadow:0px 0px 2px 1px black;
+  outline:none;
+}
+
+#keys:hover, #equal:hover{
+  background-color:aqua;
+}
+
+span{
+  color:black;
+}
+
+#dot{
+  font-size:20px;
+}
+
+#equal{
+   width:130px;
+  height:50px;
+  margin:4px;
+  box-shadow:0px 0px 2px 1px black;
+  outline:none;
+}
+
+h3{
+  margin-top:20px;
+  text-shadow:1px 1px 2px black;
+}
+
+#keys:active{
+  background-color:maroon;
+}
+
+
+

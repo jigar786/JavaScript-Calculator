@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <link rel="stylesheet" href="css/index.css" type="text/css" />
+        <!--<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />-->
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" />
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+       
+    </head>
+    <body>
+        
+  <h1>Js Calculator</h1>
+  <div id="calc">
+    <form>
+      <input type="text" id="display">
+      <br>
+      <button type="button" class="btn btn-outline-primary" value="C" id="keys" onclick='toscreen("c")'><span>C</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="bacspace()"><span>CE</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="power()"><span>^2<span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toop('+')"><span>+</span></button>
+      <br>
+      <button type="button" class="btn btn-outline-primary"  id="keys" onclick='toscreen("7")'><span>7</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toscreen('8')"><span>8</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toscreen('9')"><span>9</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toop('-')"><span>-</span></button>
+      <br>
+      <button type="button" class="btn btn-outline-primary"  id="keys" onclick='toscreen("4")'><span>4</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toscreen('5')"><span>5</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toscreen('6')"><span>6</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toop('/')"><span>/</span></button>
+      <br>
+      <button type="button" class="btn btn-outline-primary"  id="keys" onclick='toscreen("1")'><span>1</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toscreen('2')"><span>2</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toscreen('3')"><span>3</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="toop('*')"><span>*</span></button>
+      <br>
+      <button type="button" class="btn btn-outline-primary"  id="keys" onclick='toscreen("0")'><span>0</span></button>
+       <button type="button" class="btn btn-outline-primary" id="keys" onclick="todot('.')"><span id="dot">.</span></button>
+       <button type="button" class="btn btn-outline-primary" id="equal" onclick="equ()"><span>=</span></button>
+      <br>
+    </form>
+    
+    <h3>A Calculator</h3>
+  </div>
+   <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
